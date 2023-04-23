@@ -1753,6 +1753,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateActionReference: {fileID: 5037789751990232513, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rotateEsqActionReference: {fileID: -1427115167209282339, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  resetActionReference: {fileID: 8430970062158034400, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rotateForce: 500
 --- !u!1 &1845017712
 GameObject:
