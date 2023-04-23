@@ -615,6 +615,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Rodar",
+                    "type": "Button",
+                    "id": "879b9a98-1f83-42da-9754-ccb1ea7f74f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -736,6 +745,17 @@
                     "processors": "",
                     "groups": "Continuous Move;Generic XR Controller;Noncontinuous Move",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4ad8571-b89a-42ce-8f54-a492adc90daf",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller;Continuous Move;Noncontinuous Move",
+                    "action": "Rodar",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
