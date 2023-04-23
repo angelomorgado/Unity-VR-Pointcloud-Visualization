@@ -1,0 +1,1 @@
+Assets/PointClouds/CITIUSP-teste.ply filter=lfs diff=lfs merge=lfs -text
